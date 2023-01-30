@@ -4,7 +4,7 @@ package com.cybage.element;
  * Hello world!
  *
  */
-public class App 
+public clas App 
 {
     public static void main( String[] args )
     {
