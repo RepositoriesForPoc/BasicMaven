@@ -7,7 +7,7 @@ pipeline {
         stage('Build') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/asthagangwar3/BasicMavenProject.git'
+                git 'https://github.com/RepositoriesForPoc/BasicMaven.git'
 
                 // Run Maven on a Unix agent.
                 bat "mvn clean install"
